@@ -1,0 +1,1 @@
+CREATE TABLE `mapas`.`paises` ( `id` CHAR(5) NOT NULL , `nombre` CHAR(100) NOT NULL , `capital` CHAR(100) NOT NULL , `codigo_iso` CHAR(3) NOT NULL , `poblacion` INT NOT NULL , `moneda` CHAR(50) NOT NULL , `continente` CHAR(20) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
