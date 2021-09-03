@@ -1,11 +1,10 @@
 get_datos();
-function get_datos(alumnos)
+function get_datos(paises)
 {
 	$.ajax({
-		url : 'consulta.php',
 		type : 'POST',
-		dataType : 'html',
-		data : { alumnos: alumnos },
+		url : '../php/buscar.php',
+		data : { id: id }
 		})
 
 	.done(function(resultado){

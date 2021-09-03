@@ -12,7 +12,7 @@
     <body>
         <div id="ingreso">
             <h2>Ingreso de paises</h2>
-            <form action="" method="post">
+            <form method="post">
                 <label for="id" >ID</label>
                 <input type="text" id="id_i">
                 <label for="nombre">Nombre</label>
